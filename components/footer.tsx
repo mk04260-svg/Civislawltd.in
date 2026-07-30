@@ -9,6 +9,7 @@ const practiceLinks = [
   'Contract Drafting',
   'Intellectual Property',
   'NI Act — Cheque Bounce',
+  'Financial Fraud Matters',
 ]
 
 const companyLinks = [
@@ -176,11 +177,11 @@ export default function Footer() {
             &copy; 2026 Civis Law. All rights reserved. &middot; Founded by Manjit Kr Tomar.
           </p>
           <div className="flex gap-4 text-xs text-white/25">
-            <a href="#" className="hover:text-[#c9a84c] transition-colors">
+            <a href="/privacy" className="hover:text-[#c9a84c] transition-colors">
               Privacy Policy
             </a>
             <span aria-hidden="true">·</span>
-            <a href="#" className="hover:text-[#c9a84c] transition-colors">
+            <a href="/terms" className="hover:text-[#c9a84c] transition-colors">
               Terms of Service
             </a>
           </div>

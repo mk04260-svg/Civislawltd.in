@@ -132,6 +132,23 @@ const services: Service[] = [
       </svg>
     ),
   },
+  {
+    id: 'fraud',
+    title: 'Financial Fraud Matters',
+    desc: 'Expert representation in financial crimes, embezzlement, and fraud cases — investigation support, criminal defence, and asset recovery.',
+    points: [
+      'Criminal prosecution in white-collar fraud',
+      'Embezzlement and financial crime defence',
+      'Investigation support and document analysis',
+      'Asset freezing, forfeiture and recovery',
+    ],
+    icon: (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M12 1L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-6z" />
+        <path d="M10 16l-2-2m0 0l-2-2m2 2l2-2m0 0l2 2M8 12l4 4m0-4l-4 4" />
+      </svg>
+    ),
+  },
 ]
 
 export default function PracticeAreas() {

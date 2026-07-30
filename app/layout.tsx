@@ -51,7 +51,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable} bg-[#0d1b3e]`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} bg-[#0d1b3e]`} data-scroll-behavior="smooth">
       <body className="antialiased font-sans">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}

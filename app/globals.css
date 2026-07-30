@@ -124,8 +124,8 @@
   border-radius: 3px;
 }
 
-/* Smooth scrolling */
-html {
+/* Smooth scrolling - applied via data-scroll-behavior attribute in layout */
+html[data-scroll-behavior="smooth"] {
   scroll-behavior: smooth;
 }
 
